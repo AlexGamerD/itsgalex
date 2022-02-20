@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pokemon Unite Model Viewer</title>
+        <meta
+            name="description"
+            content="View 3D models from the game Pokemon Unite"
+        />
+        <link rel="icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#cccccc" />
+        <meta property="og:title" content="Pokemon Unite Model Viewer" />
+        <meta
+            property="og:description"
+            content="View 3D models from the game Pokemon Unite"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:image"
+            content="https://dgk3593.github.io/dl-model/logo192.png"
+        />
+        <meta property="og:image:alt" content="icon" />
+        <meta
+            name="keywords"
+            content="pokemon unite, pokemon unite model viewer, pokemon unite 3d models"
+        />
+        <link rel="apple-touch-icon" href="logo192.png" />
+        <link rel="manifest" href="manifest.json" />
+    </head>
+    <body>
+        <div id="app"></div>
+        <div id="modal-root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
